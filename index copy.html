@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="description" content="Count the Tones is a Mindfulness task" />
+    <title>HWcoding</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 class="counter-display">(..)</h1>
+    <button class="counter-plus">+</button>
+    <button class="starting-text" onclick="playAudio()" type="button">Click Here to Play</button>
+    <button class="stopping-text" onclick="pauseAudio()" type="button">Pause</button>
+    <audio id="myAudio">
+      <source src="Count the Tones (Version 9).mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <script src="index.js"></script>
+  </body>
+</html>

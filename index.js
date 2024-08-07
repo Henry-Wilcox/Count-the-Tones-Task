@@ -18,6 +18,7 @@ function playAudio() {
       updateDisplay();
       started = true;
     }
+    
   } 
   
   function pauseAudio() { 

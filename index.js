@@ -12,8 +12,11 @@ function playAudio() {
     x.play(); 
     startingText.classList.add('gone');
     pauseButton.classList.remove('gone');
-    count = 0;
-    updateDisplay();
+    if (started == false) {
+      count = 0;
+      updateDisplay();
+      started = true;
+    }
   } 
   
   function pauseAudio() { 

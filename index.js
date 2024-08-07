@@ -2,6 +2,7 @@
 let counterDisplayElem = document.querySelector('.counter-display')
 let counterPlusElem = document.querySelector('.counter-plus');
 let count = 0
+let started = false
 var x = document.getElementById("myAudio");
 let pauseButton = document.querySelector(".stopping-text")
 let startingText = document.querySelector(".starting-text")

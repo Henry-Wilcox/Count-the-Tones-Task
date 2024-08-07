@@ -14,7 +14,7 @@ function playAudio() {
     pauseButton.classList.remove('gone');
     count = 0;
     updateDisplay();
-} 
+  } 
   
   function pauseAudio() { 
     x.pause(); 
